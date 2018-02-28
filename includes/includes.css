@@ -1,0 +1,107 @@
+/*START OF WHOLE WEBSITE*/
+@font-face {
+    font-family: 'RoFont';
+    src: url('../fonts/gamestationtext-webfont.eot');
+    src: url('../fonts/gamestationtext-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gamestationtext-webfont.woff2') format('woff2'),
+         url('../fonts/gamestationtext-webfont.woff') format('woff'),
+         url('../fonts/gamestationtext-webfont.ttf') format('truetype'),
+         url('../fonts/gamestationtext-webfont.svg#gamestationtext') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+	box-sizing: border-box;
+	font-family: 'RoFont';
+}
+/*END OF WHOLE WEBSITE*/
+/*START OF HEADER*/
+.logo{
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+header img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 80px;
+	height: 70px;
+}
+header a{
+	margin: 0 auto;
+}
+header p{
+	margin: 10px 0 20px 0;
+	padding-top: 10px;
+	border-top: 5px solid yellow;
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+}
+.navbar{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.navbar a{
+	margin-top: 15px;
+	padding-bottom: 5px;
+	border-right: 1px solid black;
+	text-align: center;
+	text-decoration: none;
+	color: #A9A9A9;
+}
+.navbar a:last-child{
+	border-right: none;
+}
+.navbar a:hover{
+	color: #000;
+}
+a#active{
+	text-decoration: underline;
+	color: #000;
+}
+/*END OF HEADER*/
+/*START OF FOOTER*/
+footer{
+	margin: 30px 0 0 0;
+	padding: 10px 20px 50px 20px;
+	border-top: 1px solid black;
+}
+footer p{
+	float: left;
+	margin: 0;
+	padding: 5px 0 0 0;
+}
+footer p:first-child{
+	padding-right: 190px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	font-weight: bold;
+}
+footer span{
+	padding: 0 10px;
+}
+footer img{
+	display: block;
+	float: right;
+	width: 30px;
+	height: 25px;
+	margin: 0 5px;
+}
+footer img:hover{
+	opacity: 0.5;
+}
+/*END OF FOOTER*/
+/*REST OF WEBSITE "CONSTANTS"*/
+.heading{
+	margin: 0 0 5px 0;
+	padding: 15px 0;
+	color: #fff;
+	background-color: #242424;
+	text-align: center;
+	font-size: 24px;
+	font-weight: none;
+	letter-spacing: 3px;
+}
